@@ -3,14 +3,6 @@ package com.codechallenge;
 import java.util.List;
 
 public class MapsCollection {
-    public static char[][] map99 = {
-            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-            {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}
-    };
     // VALID MAPS
 
     // basic example
@@ -23,6 +15,7 @@ public class MapsCollection {
             {' ', ' ', '|', ' ', ' ', ' ', '|', ' ', ' ', 'E'},
             {' ', ' ', '+', '-', 'B', '-', 'C', ' ', ' ', ' '}
     };
+
     // straight through intersections
     // Letters: ABCD
     // Path as characters: @|A+---B--+|+--C-+|-||+---D--+|x
@@ -35,6 +28,7 @@ public class MapsCollection {
             {' ', ' ', '|', ' ', ' ', ' ', ' ', ' ', ' ', '|', ' '},
             {' ', ' ', '+', '-', '-', '-', 'D', '-', '-', '+', ' '},
     };
+
     // letters on turns
     // Letters: ABC
     // Path as characters: @--A||+--B|C+x
@@ -45,6 +39,7 @@ public class MapsCollection {
             {' ', ' ', '+', 'x', ' ', 'A', '-', '-', '@'},
             {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}
     };
+
     // no duplicate letters
     // Letters: GOONIES
     // Path as characters: @-G-O-+|+-+|O||+-O-N-+|I|+-+|+-I-+|ES|x
